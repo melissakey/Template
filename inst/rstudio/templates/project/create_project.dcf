@@ -1,0 +1,36 @@
+Binding: create_template_1
+Title: Example Project Template
+OpenFiles: INDEX
+
+Parameter: verbose
+Widget: CheckboxInput
+Label: Verbose?
+Default: Off
+Position: left
+
+Parameter: branch
+Widget: SelectInput
+Label: Branch
+Fields: RHBA, RHBB, RHBC, RHBF, Other
+Default: RHBF
+Position: left
+
+Parameter: template
+Widget: SelectInput
+Label: Select Template
+Fields: Default, None
+Default: Default
+Position: left
+
+
+Parameter: text
+Widget: TextInput
+Label: Text Input
+Default:
+Position: right
+
+Parameter: file
+Widget: FileInput
+Label: File Input
+Default: ~/
+Position: right
